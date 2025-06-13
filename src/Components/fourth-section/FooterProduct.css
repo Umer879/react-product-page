@@ -1,0 +1,15 @@
+.footer-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+.footer-products .img {
+  flex-basis: calc(33.33% - 10px); /* 3 per row with gap */
+  overflow: hidden;
+}
+.img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

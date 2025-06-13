@@ -1,0 +1,30 @@
+.input{
+    text-align: center;
+}
+.input p{
+    line-height: 1.5;
+}
+.input input{
+    outline: 0;
+    width: 170px;
+    padding: 9px 0 9px 10px;
+    border-radius: 4px;
+    margin: 0 4px;
+    font-size: 14px;
+    border: 2px solid white;
+    transition: border-color 0.3s ease;
+}
+.input input:focus{
+    border-color: #198754;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    opacity: 0.5;
+    background-color: var(--bs-text);
+}
+.notice{
+    margin:10px 0;
+    display: flex;
+    justify-content: space-between;
+}

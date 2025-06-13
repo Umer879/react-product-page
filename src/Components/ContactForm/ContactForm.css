@@ -1,0 +1,35 @@
+.contact-form{
+    padding: 30px 40px;
+    background-color: #e7f0ff;
+    display: flex;
+    min-height: 90vh;
+    justify-content: space-between;
+}
+.contact-form p{
+    color: rgb(141, 143, 143);
+}
+.contact-form h1, h3{
+    color: #434343;
+}
+.contact-details{
+    width: 65%;
+}
+.contact-form .contact-details .contact-info{
+    margin: 50px 0;
+    width: 50%;
+}
+.contact-info h1{
+margin-bottom: 12px;
+}
+.contact-info p{
+    line-height: 1.5;
+}
+.contact-details .support-topics{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.support-topics p{
+    font-size: 15px;
+    line-height: 1.4;
+}

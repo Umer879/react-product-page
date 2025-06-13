@@ -1,0 +1,20 @@
+:root {
+  --bs-text: rgb(255, 255, 255, 0.6);
+  --bs-bg-color: rgb(108, 117, 125);
+  --heading-color: #fff;
+}
+.footerCont{
+    background-color: var(--bs-bg-color);
+    width: 100%;
+    margin: 50px 0 0 0;
+    min-height: 100vh;
+    padding: 70px 50px;
+}
+.footerCont p, i{
+color: var(--bs-text);
+}
+.footerCont h1{
+     color: var(--heading-color);
+      font-size: 1.7rem;
+  font-weight: 450;
+}

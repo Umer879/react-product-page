@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container-fluid{
+    font-family: "Roboto", sans-serif;
+}
+.arrival{
+    padding: 50px 0;
+}
+.arrival .h1, .P{
+    text-align: center;
+}
+.arrival h1{
+    margin-bottom: 10px;
+}

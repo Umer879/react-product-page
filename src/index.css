@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+}
+/* button{
+  background-color: var(--bs-btn-background);
+  color: var(--bs-btn-color);
+  outline: 0;
+  width: 170px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin: 20px 0;
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+}
+button:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: var(--bs-btn-hover-bg);
+} */

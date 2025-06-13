@@ -1,0 +1,55 @@
+
+:root{
+    --bs-background:#e26c8e;
+    --bs-btn-background:#198754;
+    --bs-btn-color: #fff;
+    --bs-btn-hover-bg: #157347;
+    --bs-text-color:#212529;
+}
+.banner2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 24px 0;
+    padding: 0 4px;
+
+    gap: 15px;
+    height: 66vh;
+}
+.banner2 .img{
+    width: 50%;
+    height: 100%;
+}
+.img img{
+    width: 100%;
+}
+.banner2-details{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: var(--bs-background);
+}
+.banner2-details .details h1{
+    font-size: 4.5rem;
+    font-weight: 500;
+    color: var(--bs-text-color);
+}
+.banner-btn {
+    background-color:var(--bs-btn-background);
+    color: var(--bs-btn-color);
+    outline: 0;
+    width: 170px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin: 20px 0;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+}
+.banner-btn:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: var(--bs-btn-hover-bg);
+}
